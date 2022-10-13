@@ -4,4 +4,6 @@ A personal expenses application, currently in creating following along the Udemy
 This project is intended as a personal exploration of Kubernetes.
 To run the project as a cluster, cd to the K8S directory and run
 `./deploy.sh`
-to initiate a deployment.
+to initiate a deployment that is served by a load balancer.
+
+To run the project using Docker, use `docker-compose up` from the root directory.
